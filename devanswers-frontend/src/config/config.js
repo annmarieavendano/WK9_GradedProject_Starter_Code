@@ -25,6 +25,7 @@ export const QUESTION_API = {
 
 // Answer API Endpoints
 export const ANSWER_API = {
+  CREATE_FOR_QUESTION: (questionId) => `/answers/question/${questionId}`,
   UPDATE: (answerId) => `/answers/${answerId}`,
   DELETE: (answerId) => `/answers/${answerId}`,
   UPVOTE: (answerId) => `/answers/${answerId}/upvote`,
@@ -40,4 +41,10 @@ export const TAG_API = {
 // User API Endpoints
 export const USER_API = {
   STATS: (userId) => `/auth/stats/${userId}`,
+};
+
+// AI API Endpoints
+export const AI_API = {
+  IMPROVE_QUESTION: '/ai/improve-question',
+  SUMMARIZE_ANSWERS: '/ai/summarize-answers',
 };

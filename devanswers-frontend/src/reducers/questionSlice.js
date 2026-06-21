@@ -5,9 +5,8 @@ import {
   createQuestion,
   upvoteQuestion,
   downvoteQuestion,
-  createAnswerForQuestion,
 } from "../services/questionService.js";
-import { upvoteAnswer, downvoteAnswer } from "../services/answerService.js";
+import { createAnswerForQuestion, upvoteAnswer, downvoteAnswer } from "../services/answerService.js";
 
 const initialState = {
   questions: [],

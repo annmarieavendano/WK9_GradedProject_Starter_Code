@@ -53,6 +53,7 @@ const QuestionDetail = () => {
           
           <AnswerList
             answers={currentQuestion.answers}
+            question={currentQuestion}
           />
           
           <AnswerForm

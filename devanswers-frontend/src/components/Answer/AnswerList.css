@@ -58,6 +58,18 @@
   background-color: var(--bg-secondary);
 }
 
+.alist-summarize-btn {
+  font-size: 0.875rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.alist-summary-banner {
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 .alist-icon-up {
   color: #5eba7d;
 }
